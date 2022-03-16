@@ -1,0 +1,137 @@
+.message{
+  margin-left: auto;
+  margin-right: auto;
+}
+.message__TODAY{
+  position: relative;
+  text-align: center;
+  color: rgb(220, 220, 219);
+  font-size: none;
+  font-size: 24px;
+  
+}
+
+.message__linine-right{
+  display:inline-block;
+  width: 615px;
+  border-bottom: 3px solid rgb(220, 220, 219);
+  position: absolute;
+  top: 13px;
+  right: -75px;
+}
+.message__linine-left{
+  display:inline-block;
+  width: 615px;
+  border-bottom: 3px solid rgb(220, 220, 219);
+  position: absolute;
+  top: 13px;
+  left: -75px;
+}
+.message-box{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.message__mark:nth-child( 2
+){
+  margin-left: 200px
+  
+}
+.message__mark{
+  width: 410px;
+  margin-top: 90px;
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  padding-right: 60px;
+  padding-bottom: 9px;
+  padding-left: 15px;
+  padding-top: 9px;
+  background-color:rgb(230, 237, 246);
+  border-radius: 5px;
+  
+  &::before{
+    content:'';
+    @include triangle-up (20px,rgb(230, 237, 246));
+    position: absolute;
+    top: -3px;
+    left: -15px;
+    transform: rotate(45deg);
+    
+    
+  }
+  
+}
+
+.but{
+  width: 210px;
+  padding: 0;
+  padding-left: 10px;
+}
+.blocked{
+  background-color: rgb(255, 194, 193);
+  margin-left: 200px
+  
+}
+
+.blocked::before{
+  content:'';
+  display:none;
+  
+}
+
+.myself{
+  background-color: rgb(242, 242, 242);
+  
+  &::before{
+    content:'';
+    @include triangle-up (20px,rgb(242, 242, 242));
+    position: absolute;
+    top: -3px;
+    left: 388px;
+    right: 0px;
+    transform: rotate(-45deg);
+    
+    
+  }
+}
+.message__mark-time{
+  position: absolute;
+  top: -30px;
+  color: rgb(220, 220, 219);
+  font-size: 24px;
+  font-weight: 600;
+}
+.myself-time{
+  position: absolute;
+  top: -30px;
+  left: 350px;
+  color: rgb(220, 220, 219);
+  font-size: 24px;
+  font-weight: 600;
+}
+.message-type{
+  width: 700px;
+  margin-top: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-right:none ;
+  border-left: none;
+  border-bottom: none;
+  outline:none ;
+  border:(220, 220, 219) ;
+}
+.message-type::placeholder{
+  font-size: 24px;
+  font-weight: 600;
+}
+.send{
+  position: relative;
+  left: -70px;
+  color: #6A96D8FF;
+  background-color: transparent;
+  border: transparent;
+  font-size: 24px;
+  font-weight: 800;
+  
+}

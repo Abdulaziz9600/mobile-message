@@ -1,0 +1,24 @@
+.site-header{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(106, 150, 216);
+}
+.site-header__heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header__heading-item{
+  color: rgb(240, 248, 255);
+  font-family: 'Paytone One';
+  font-style: bold;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 89px;
+}
+.site-header__exit-button{
+  border: none;
+  background-color: transparent;
+  font-size: 32px;
+  color: rgb(240, 248, 255);
+}
