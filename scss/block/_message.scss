@@ -1,9 +1,8 @@
-.message{
+
+.message__today{
+  position: relative;
   margin-left: auto;
   margin-right: auto;
-}
-.message__TODAY{
-  position: relative;
   text-align: center;
   color: rgb(220, 220, 219);
   font-size: none;
@@ -28,6 +27,8 @@
   left: -75px;
 }
 .message-box{
+  margin-right: auto;
+  margin-left: auto;
   display: flex;
   flex-direction: column;
   list-style: none;

@@ -396,15 +396,7 @@ template {
 }
 
 .container {
-  width: 1240px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.hero-container {
-  max-width: 730px;
+  width: 900px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -431,6 +423,7 @@ template {
 
 .site-header__heading-item {
   color: aliceblue;
+  text-transform: uppercase;
   font-family: 'Paytone One';
   font-style: bold;
   font-weight: bold;
@@ -445,13 +438,10 @@ template {
   color: aliceblue;
 }
 
-.message {
+.message__today {
+  position: relative;
   margin-left: auto;
   margin-right: auto;
-}
-
-.message__TODAY {
-  position: relative;
   text-align: center;
   color: #dcdcdb;
   font-size: none;
@@ -477,6 +467,8 @@ template {
 }
 
 .message-box {
+  margin-right: auto;
+  margin-left: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
