@@ -450,7 +450,7 @@ template {
 
 .message__linine-right {
   display: inline-block;
-  width: 615px;
+  width: 452px;
   border-bottom: 3px solid #dcdcdb;
   position: absolute;
   top: 13px;
@@ -459,7 +459,7 @@ template {
 
 .message__linine-left {
   display: inline-block;
-  width: 615px;
+  width: 452px;
   border-bottom: 3px solid #dcdcdb;
   position: absolute;
   top: 13px;
